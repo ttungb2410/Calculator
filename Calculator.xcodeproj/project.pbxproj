@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7109D4E1E54A90E00A16298 /* OperatorsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7109D4D1E54A90E00A16298 /* OperatorsButton.swift */; };
+		C7109D501E54AD4800A16298 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7109D4F1E54AD4800A16298 /* GradientView.swift */; };
+		C7206A3E1E55591F0096791B /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7206A3D1E55591F0096791B /* NumberButton.swift */; };
 		C786A6141E54510000148FB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786A6131E54510000148FB4 /* AppDelegate.swift */; };
 		C786A6161E54510000148FB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786A6151E54510000148FB4 /* ViewController.swift */; };
 		C786A6191E54510000148FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C786A6171E54510000148FB4 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7109D4D1E54A90E00A16298 /* OperatorsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperatorsButton.swift; path = ../OperatorsButton.swift; sourceTree = "<group>"; };
+		C7109D4F1E54AD4800A16298 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		C7206A3D1E55591F0096791B /* NumberButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberButton.swift; sourceTree = "<group>"; };
 		C786A6101E54510000148FB4 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C786A6131E54510000148FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C786A6151E54510000148FB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +60,15 @@
 		C786A6121E54510000148FB4 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				C7109D4D1E54A90E00A16298 /* OperatorsButton.swift */,
+				C7109D4F1E54AD4800A16298 /* GradientView.swift */,
 				C786A6131E54510000148FB4 /* AppDelegate.swift */,
 				C786A6151E54510000148FB4 /* ViewController.swift */,
 				C786A6171E54510000148FB4 /* Main.storyboard */,
 				C786A61A1E54510000148FB4 /* Assets.xcassets */,
 				C786A61C1E54510000148FB4 /* LaunchScreen.storyboard */,
 				C786A61F1E54510000148FB4 /* Info.plist */,
+				C7206A3D1E55591F0096791B /* NumberButton.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7109D4E1E54A90E00A16298 /* OperatorsButton.swift in Sources */,
 				C786A6161E54510000148FB4 /* ViewController.swift in Sources */,
+				C7109D501E54AD4800A16298 /* GradientView.swift in Sources */,
+				C7206A3E1E55591F0096791B /* NumberButton.swift in Sources */,
 				C786A6141E54510000148FB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +311,7 @@
 				C786A6241E54510000148FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
