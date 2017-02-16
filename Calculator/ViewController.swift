@@ -103,13 +103,20 @@ class ViewController: UIViewController {
             result = firstNumber * secondNumber
         case "/":
             result = firstNumber / secondNumber
+            if secondNumber == 0 {
+                lbl_noti.text = "Khong chia duoc cho 0"
+            }
         case "%":
             result = firstNumber / 100
         case "+/-":
             if firstNumber < 0 {
                 firstNumber = fabs(firstNumber)
                 result = firstNumber
-            }else{
+            }else if firstNumber == 0{
+                lbl_noti.text = "ban phai nhap so khac 0"
+                result = 0
+            }
+            else{
                 firstNumber = -1 * firstNumber
                 result = firstNumber
             }
